@@ -50,9 +50,44 @@ li {
     width: 100px;
   }
  
-
-  .button-input {
+ .button-input {
     margin-top: 20px;
+  }
+
+ @media only screen and (max-width: 600px) {
+   .img-main {
+     display: none;
+   }
+   
+   .text-main {
+     text-align: center;
+     font-family: georgia;
+   }
+
+   .description-text {
+    margin-left: 10px;
+  }
+
+  .img-dis {
+    width: 200px;
+  }
+  
+  }
+
+  .description {
+    background: #f7f7f7;
+    margin: 40px auto;
+    width: 100%;
+
+  }
+
+  .font-h2 {
+    font-family: georgia;
+
+  }
+
+  .btn-footer {
+    width: 180px;
   }
 
 .footer-ul li {
@@ -62,7 +97,6 @@ li {
 }
 
 .footer {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
