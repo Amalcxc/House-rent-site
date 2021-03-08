@@ -70,23 +70,58 @@ li {
 
   .img-dis {
     width: 200px;
-  }
-  
-  }
+  } 
 
-  .description {
-    background: #f7f7f7;
-    margin: 40px auto;
-    width: 100%;
 
   }
 
-  .font-h2 {
-    font-family: georgia;
-
+.description {
+  background: #f7f7f7;
+  margin: 40px auto;
+  width: 100%;
   }
 
-  .btn-footer {
+.font-h2 {
+  font-family: georgia;
+}
+
+.house-imgs {
+  height: 100%;
+  width: 100%;
+} 
+
+.house-listing {
+  padding: 0;
+  margin: 0;
+}
+
+.house-listing-text {
+  font-family: georgia;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.house-listing-text a {
+  text-decoration: none;
+  color:rgba(8, 8, 8, 0.863);
+}
+
+.text-on-img{
+  bottom: 0;
+  background-color: rgba(46, 128, 92);
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+
+.search-bar input {
+  height: 40px;
+  width: 400px; 
+}
+
+
+.btn-footer {
     width: 180px;
   }
 
