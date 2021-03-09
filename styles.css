@@ -5,6 +5,7 @@
 .nav-ul li {
   padding-left:34px;
   margin-top: 5px;
+  font-size: 20px;
 }
 
 .green-color {
@@ -124,8 +125,14 @@ li {
     line-height: 32px;
   }
 
-
+  .footer-socials {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
   }
+
+
+}
 
 .img-main img {
   height: 390px;
