@@ -250,7 +250,7 @@ li {
 
 .text-on-img{
   bottom: 0;
-  background-color: rgba(46, 128, 92);
+  background-color: rgb(212, 87, 74);
   width: 100%;
   font-size: 18px;
   font-weight: 500;
@@ -262,6 +262,20 @@ li {
   width: 400px; 
 }
 
+.form-controls {
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  padding-left: 10px;
+}
+
+.btn-search {
+  height: 40px;
+  margin-top: 20px;
+}
 
 .btn-footer {
     width: 180px;
