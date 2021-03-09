@@ -57,6 +57,28 @@ li {
   list-style-type: none;
 }
 
+.form {
+  border: 1px solid red;
+  margin-top: 20px;
+}
+
+.form input {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ebebeb;
+  border-radius: 3px;
+  margin: 0 0 10px 0;
+  box-shadow: 0 
+}
+
+.form button {
+  width: 100%;
+  background: rgb(212, 87, 74);
+  padding: 15px;
+  color: white;
+  font-size: 14px;
+}
+
 .jumbotron {
   background-image: url("https://images.adsttc.com/media/images/5ecd/d4ac/b357/65c6/7300/009d/large_jpg/02C.jpg?1590547607");
   background-repeat: repeat-y;
@@ -209,7 +231,7 @@ li {
   .footer-icon {
     display: block;
   }
-
+  
 }
 
 .img-main img {
@@ -231,6 +253,17 @@ li {
   height: 100%;
   width: 100%;
 } 
+
+.house-imgs1 {
+  height: 100%;
+  width: 100%;
+
+}
+
+.house-imgs2 {
+  margin-top: 10px;
+  width: 45%;
+}
 
 .house-listing {
   padding: 0;
