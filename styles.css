@@ -94,7 +94,16 @@ li {
     padding-left: 20px;
   }
 
-  @media only screen and (min-width: 600px) {
+  .description-text {
+    margin-left: 10px;
+    width: 73%;
+  }
+
+  .description-text h6, button, h4 {
+    width: 75%;
+  }
+
+  @media only screen and (min-width: 700px) {
     .text-main {
       padding-left: 10px;
       padding-right: 30px;
@@ -116,14 +125,11 @@ li {
     .img-main {
       display:none;
     }
+
     .text-main {
       text-align: center;
       font-family: georgia;
-    }
-
-    .description-text {
-      margin-left: 10px;
-    }
+    }   
 
     .img-dis {
       width: 200px;
@@ -169,6 +175,18 @@ li {
     width: 190px;
   }
 
+  .description {
+    width: 75%;
+
+  }
+
+  .description-text {
+    padding-left: 20px;
+    padding-top: 30px;
+    line-height: 200px;
+    width: 100%;
+  }
+
 }
 
 .img-main img {
@@ -180,7 +198,6 @@ li {
 .description {
   background: #f7f7f7;
   margin: 40px auto;
-  width: 100%;
 }
 
 .font-h2 {
