@@ -1,5 +1,7 @@
-# capstone-project
 ### website for houses to rent 
+
+<img src="images/Screen Shot 2021-03-10 at 1.02.13 AM.png">
+
 
 ### Prerequisites
 
