@@ -14,25 +14,23 @@
   background-color: rgb(230, 172, 91);
 }
 
-#nav-bg{
-  background-color:rgb(212, 87, 74);
+#nav-bg {
+  background-color: rgb(212, 87, 74);
 }
 
 .footer {
   background-color: black;
   bottom: 0;
-
 }
 
 .nav-ul li {
-  padding-left:34px;
+  padding-left: 34px;
   margin-top: 5px;
   font-size: 20px;
 }
 
 .red-color {
   color: rgb(212, 87, 74);
-
 }
 
 .white-color {
@@ -44,7 +42,7 @@
 }
 
 .nav-ul li a {
-  text-decoration:none;
+  text-decoration: none;
   color: white;
 }
 
@@ -53,7 +51,7 @@
   height: 100px;
 }
 
-li {
+.nav-ul li {
   list-style-type: none;
 }
 
@@ -68,7 +66,6 @@ li {
   border: 1px solid #ebebeb;
   border-radius: 3px;
   margin: 0 0 10px 0;
-  box-shadow: 0 
 }
 
 .form button {
@@ -87,89 +84,87 @@ li {
   height: 490px;
   }
 
-  .input-jumbitron{
-    width: 300px;
-    height: 40px;
-    margin-bottom: 5px;
-    
+.input-jumbitron {
+  width: 300px;
+  height: 40px;
+  margin-bottom: 5px;  
+}
+
+.btn-jumbitron {
+  width: 300px;
+  height: 40px;
+  background-color: rgb(212, 87, 74);
+  border-color: rgb(212, 87, 74);
+  border-radius: .25rem;
+}
+
+.button-input {
+  background-color:rgba(230, 230, 230, 0.836);
+  width: 75%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.img-main {
+  height: 380px;
+}
+
+.text-main {
+  width: 835px;
+}
+
+.main {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.description-text {
+  margin-left: 10px;
+  width: 73%;
+}
+
+.footer-icon {
+  display: none;
+}
+
+.Subscribe {
+  display: none;
   }
 
-  .btn-jumbitron {
-    width: 300px;
-    height: 40px;
-    background-color: rgb(212, 87, 74);
-    border-color: rgb(212, 87, 74);
-    border-radius: .25rem;
-  }
-
- .button-input {
-    background-color:rgba(230, 230, 230, 0.836);
-    width: 75%;
-    margin: 0 auto;
-    padding: 20px;
-  }
-
-  .img-main {
-    height: 380px;
-  }
-
+@media only screen and (min-width: 700px) {
   .text-main {
-    width: 835px;
-  }
+    padding-left: 10px;
+    padding-right: 30px;
+    margin-top: 35px;
+    line-height: 25px;
+    width: 635px;
+    }
 
   .main {
     margin-top: 20px;
     padding-left: 20px;
   }
 
-  .description-text {
-    margin-left: 10px;
-    width: 73%;
+}
+
+@media only screen and (max-width: 680px) {
+  .img-main {
+    display:none;
   }
 
-  .footer-icon {
-    display: none;
-  }
-
-     
-  .Subscribe {
-    display: none;
-  }
-
-  @media only screen and (min-width: 700px) {
-    .text-main {
-      padding-left: 10px;
-      padding-right: 30px;
-      margin-top: 35px;
-      line-height: 25px;
-      width: 635px;
-    }
-
-    .main {
-      margin-top: 20px;
-      padding-left: 20px;
-    }
-
-  }
-
- @media only screen and (max-width: 680px) {
-    .img-main {
-      display:none;
-    }
-
-    .text-main {
-      text-align: center;
-      font-family: georgia;
+  .text-main {
+    text-align: center;
+      ont-family: georgia;
     }   
 
-    .img-dis {
-      width: 200px;
-    }
-  
-    .main {
-      text-align: center;
-    }    
+  .img-dis {
+    width: 200px;
   }
+  
+  .main {
+    text-align: center;
+  }    
+}
 
 @media only screen and (min-width: 1200px) {
   .img-main {
@@ -195,7 +190,6 @@ li {
     border-top: 1px solid white;
     border-bottom: 1px solid white;
     padding-top: 5px;
-
   }
 
   .input-button {
@@ -213,7 +207,6 @@ li {
 
   .description {
     width: 75%;
-
   }
 
   .description-text {
@@ -225,7 +218,6 @@ li {
 
   .Subscribe {
     display: block;
-
   }
 
   .footer-icon {
@@ -257,7 +249,6 @@ li {
 .house-imgs1 {
   height: 100%;
   width: 100%;
-
 }
 
 .house-imgs2 {
@@ -311,13 +302,12 @@ li {
 }
 
 .btn-footer {
-    width: 180px;
-  }
+  width: 180px;
+}
 
 .footer-ul li {
   padding-left:34px;
   margin-top: 5px;
-
 }
 
 .footer {
@@ -330,5 +320,4 @@ li {
   color: rgb(158, 184, 172);
   text-decoration: none;
   padding-left: 5px;
-
 }
