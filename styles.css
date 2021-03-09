@@ -154,8 +154,8 @@
 
   .text-main {
     text-align: center;
-      ont-family: georgia;
-    }   
+    font-family: georgia;
+  }   
 
   .img-dis {
     width: 200px;
@@ -238,7 +238,7 @@
 }
 
 .font-h2 {
-  font-family: georgia;
+  font-family: georgia, sans-serif;
 }
 
 .house-imgs {
