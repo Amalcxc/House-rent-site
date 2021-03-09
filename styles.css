@@ -1,3 +1,19 @@
+.red-bg {
+  background-color: rgb(212, 87, 74);
+}
+
+.blue-bg {
+  background-color: rgb(81, 156, 216);
+}
+
+.gray-bg {
+  background-color: rgb(230, 230, 230);
+}
+
+.yellow-bg {
+  background-color: rgb(230, 172, 91);
+}
+
 #nav-bg, .footer {
   background-color:rgba(8, 8, 8, 0.863);
 }
@@ -45,15 +61,22 @@ li {
   .input-jumbitron{
     width: 300px;
     height: 40px;
+    margin-bottom: 5px;
     
   }
 
   .btn-jumbitron {
-    width: 100px;
+    width: 300px;
+    height: 40px;
+    background-color: rgb(212, 87, 74);
+    border-color: rgb(212, 87, 74);
+    border-radius: .25rem;
   }
- 
+
  .button-input {
-    margin-top: 20px;
+    background-color:rgba(230, 230, 230, 0.459);
+    width: 75%;
+    margin: 0 auto;
   }
 
   .img-main {
@@ -91,22 +114,22 @@ li {
     .img-main {
       display:none;
     }
-   .text-main {
-     text-align: center;
-     font-family: georgia;
-   }
+    .text-main {
+      text-align: center;
+      font-family: georgia;
+    }
 
-   .description-text {
-    margin-left: 10px;
-  }
+    .description-text {
+      margin-left: 10px;
+    }
 
-  .img-dis {
-    width: 200px;
-  }
+    .img-dis {
+      width: 200px;
+    }
   
-  .main {
-    text-align: center;
-  }
+    .main {
+      text-align: center;
+    }
 
 
   }
@@ -131,7 +154,6 @@ li {
     justify-content: space-around;
   }
 
-
 }
 
 .img-main img {
@@ -144,7 +166,7 @@ li {
   background: #f7f7f7;
   margin: 40px auto;
   width: 100%;
-  }
+}
 
 .font-h2 {
   font-family: georgia;
