@@ -14,8 +14,14 @@
   background-color: rgb(230, 172, 91);
 }
 
-#nav-bg, .footer {
-  background-color:rgba(8, 8, 8, 0.863);
+#nav-bg{
+  background-color:rgb(212, 87, 74);
+}
+
+.footer {
+  background-color: black;
+  bottom: 0;
+
 }
 
 .nav-ul li {
@@ -24,8 +30,8 @@
   font-size: 20px;
 }
 
-.green-color {
-  color: rgba(46, 128, 92);
+.red-color {
+  color: rgb(212, 87, 74);
 
 }
 
@@ -39,7 +45,7 @@
 
 .nav-ul li a {
   text-decoration:none;
-  color: rgba(46, 128, 92);
+  color: white;
 }
 
 .logo {
@@ -99,8 +105,13 @@ li {
     width: 73%;
   }
 
-  .description-text h6, button, h4 {
-    width: 75%;
+  .footer-icon {
+    display: none;
+  }
+
+     
+  .Subscribe {
+    display: none;
   }
 
   @media only screen and (min-width: 700px) {
@@ -116,12 +127,10 @@ li {
       margin-top: 20px;
       padding-left: 20px;
     }
-    
-
 
   }
 
- @media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 680px) {
     .img-main {
       display:none;
     }
@@ -137,9 +146,7 @@ li {
   
     .main {
       text-align: center;
-    }
-    
-
+    }    
   }
 
 @media only screen and (min-width: 1200px) {
@@ -160,6 +167,13 @@ li {
     display:flex;
     flex-flow: row wrap;
     justify-content: space-around;
+  }
+
+  .footer-socials1 {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding-top: 5px;
+
   }
 
   .input-button {
@@ -185,6 +199,15 @@ li {
     padding-top: 30px;
     line-height: 200px;
     width: 100%;
+  }
+
+  .Subscribe {
+    display: block;
+
+  }
+
+  .footer-icon {
+    display: block;
   }
 
 }
@@ -256,12 +279,8 @@ li {
   width: 100%;
 }
 
-.footer-about {
-  color: rgba(46, 128, 92);
-}
-
 .footer-h6 h6 {
-  color: rgba(46, 128, 92);
+  color: rgb(158, 184, 172);
   text-decoration: none;
   padding-left: 5px;
 
