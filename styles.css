@@ -52,10 +52,11 @@ li {
 }
 
 .jumbotron {
-  background-image: url("http://manolohome.com/wordpress/wp-content/uploads/2008/07/blackhouse.jpg");
+  background-image: url("https://images.adsttc.com/media/images/5ecd/d4ac/b357/65c6/7300/009d/large_jpg/02C.jpg?1590547607");
   background-repeat: repeat-y;
+  background-position: center;
   background-size: cover;
-  height: 300px;
+  height: 490px;
   }
 
   .input-jumbitron{
@@ -74,9 +75,10 @@ li {
   }
 
  .button-input {
-    background-color:rgba(230, 230, 230, 0.459);
+    background-color:rgba(230, 230, 230, 0.836);
     width: 75%;
     margin: 0 auto;
+    padding: 20px;
   }
 
   .img-main {
@@ -130,7 +132,7 @@ li {
     .main {
       text-align: center;
     }
-
+    
 
   }
 
@@ -152,6 +154,19 @@ li {
     display:flex;
     flex-flow: row wrap;
     justify-content: space-around;
+  }
+
+  .input-button {
+    display: flex;
+    justify-content: center;
+  }
+
+  .input-jumbitron {
+    width: 600px;
+  }
+
+  .btn-jumbitron {
+    width: 190px;
   }
 
 }
