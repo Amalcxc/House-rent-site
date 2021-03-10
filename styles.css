@@ -84,7 +84,7 @@
 .input-jumbitron {
   width: 300px;
   height: 40px;
-  margin-bottom: 5px; 
+  margin-bottom: 5px;
 }
 
 .btn-jumbitron {
@@ -151,16 +151,16 @@
   .text-main {
     text-align: center;
     font-family: georgia, sans-serif;
-  }   
+  }
 
   .img-dis {
     width: 200px;
   }
-  
+
   .main {
     text-align: center;
-   }
   }
+}
 
 @media only screen and (min-width: 1200px) {
   .img-main {
