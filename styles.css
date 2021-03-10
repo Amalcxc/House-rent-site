@@ -22,6 +22,7 @@
   padding-left: 34px;
   margin-top: 5px;
   font-size: 20px;
+  list-style-type: none;
 }
 
 .red-color {
@@ -36,6 +37,11 @@
   padding-top: 110px;
 }
 
+.house-listing-text a {
+  text-decoration: none;
+  color: rgba(8, 8, 8, 0.863);
+}
+
 .nav-ul li a {
   text-decoration: none;
   color: white;
@@ -44,15 +50,6 @@
 .logo {
   width: 100px;
   height: 100px;
-}
-
-.house-listing-text a {
-  text-decoration: none;
-  color:rgba(8, 8, 8, 0.863);
-}
-
-.nav-ul li {
-  list-style-type: none;
 }
 
 .form {
@@ -82,7 +79,7 @@
   background-position: center;
   background-size: cover;
   height: 490px;
-  }
+}
 
 .input-jumbitron {
   width: 300px;
@@ -95,7 +92,7 @@
   height: 40px;
   background-color: rgb(212, 87, 74);
   border-color: rgb(212, 87, 74);
-  border-radius: .25rem;
+  border-radius: 0.25rem;
 }
 
 .button-input {
@@ -144,17 +141,16 @@
     margin-top: 20px;
     padding-left: 20px;
   }
-
 }
 
 @media only screen and (max-width: 680px) {
   .img-main {
-    display:none;
+    display: none;
   }
 
   .text-main {
     text-align: center;
-    font-family: georgia;
+    font-family: georgia, sans-serif;
   }   
 
   .img-dis {
@@ -164,7 +160,6 @@
   .main {
     text-align: center;
   } 
-
 }
 
 @media only screen and (min-width: 1200px) {
@@ -284,7 +279,7 @@
 
 .form-controls {
   width: 100%;
-  padding: .375rem .75rem;
+  padding: 0.375rem 0.75rem;
   font-size: 1rem;
   font-weight: 400;
   border: 1px solid #ced4da;
@@ -311,7 +306,6 @@
   bottom: 0;
   width: 100%;
   background-color: black;
-  bottom: 0;
 }
 
 .footer-h6 h6 {
