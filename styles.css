@@ -23,6 +23,23 @@
   margin-top: 5px;
   font-size: 20px;
   list-style-type: none;
+  display: none;
+}
+
+
+.nav-icons {
+  display: block;
+}
+
+.nav-icons a {
+  text-decoration: none;
+  color: white;
+  margin: 25px;
+}
+
+.nav-icons li {
+  list-style-type: none;
+  font-size: 20px;
 }
 
 .red-color {
@@ -71,6 +88,16 @@
   padding: 15px;
   color: white;
   font-size: 14px;
+}
+
+.button {
+  width: 200px;
+  background-color: rgb(212, 87, 74);
+  border-color: rgb(212, 87, 74);
+  border-radius: 0.25rem;
+  height: 40px;
+  color: white;
+  line-height: 0;
 }
 
 .jumbotron {
@@ -150,7 +177,7 @@
 
   .text-main {
     text-align: center;
-    font-family: georgia, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
   .img-dis {
@@ -219,6 +246,14 @@
   .footer-icon {
     display: block;
   }
+
+  .nav-ul li {
+    display: block;
+  }
+
+  .nav-icons li {
+    display: none;
+  }
 }
 
 .img-main img {
@@ -233,7 +268,7 @@
 }
 
 .font-h2 {
-  font-family: georgia, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .house-imgs {
@@ -257,7 +292,7 @@
 }
 
 .house-listing-text {
-  font-family: georgia, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 14px;
   font-weight: 200;
 }
@@ -288,16 +323,28 @@
 
 .btn-search {
   height: 40px;
+  width: 100px;
   margin-top: 20px;
+  background-color: rgb(212, 87, 74);
+  border-color: rgb(212, 87, 74);
+  color: white;
+  border-radius: 0.25rem;
 }
 
 .btn-footer {
-  width: 180px;
+  width: 180px; 
 }
 
 .footer-ul li {
   padding-left: 34px;
   margin-top: 5px;
+  font-size: 20px;
+  list-style-type: none;
+}
+
+.footer-ul li a {
+  text-decoration: none;
+  color: white;
 }
 
 .footer {

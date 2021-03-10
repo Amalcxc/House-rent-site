@@ -10,189 +10,197 @@
     <title>search Page</title>
   </head>
   <body>
-    <nav class="navbar sticky-top navbar-light" id="nav-bg">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="White" class="bi bi-house-fill" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
-          <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
-        </svg></a>
-        <div class="nav-items d-flex justify-content-end">
-          <ul class="d-flex md-6 nav-ul">
-            <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="search.html" class="active">Search</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Blog</a></li>
-            
-          </ul>
+    <header class="header">
+      <nav class="navbar sticky-top navbar-light" id="nav-bg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="white" class="bi bi-house-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+            <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+          </svg></a>
+          <div class="nav-items d-flex justify-content-end">
+            <ul class="d-flex md-6 nav-ul">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="search.html">Search</a></li>
+              <li><a href="details.html">About</a></li>
+              <li><a href="#">Blog</a></li> 
+            </ul>
+
+            <ul class="d-flex nav-icons">
+              <li ><a href="index.html"><i class="fal fa-home"></i></a></li>
+              <li><a href="search.html"><i class="fas fa-search"></i></a></li>
+              <li><a href="details.html"><i class="far fa-address-card"></i></a></li>
+              <li><a href="#"><i class="fas fa-user"></i></a></li> 
+            </ul>
+          </div>
         </div>
-      </div>
+      </nav>
+    </header>
     
-    </nav>
-
-    <div class="container-fluid">
-      <h3 class="text-center mt-4">Fliter By Country</h3>
-      <div class="d-flex justify-content-center">
-        <div class="form-group">
-          <label>Countries:</label>
-          <select class="form-controls">
-            <option>Chile</option>
-            <option>Burundi</option>
-            <option>Colombia</option>
-            <option>Fiji</option>
-          </select>
-        </div>
-
-        <div class="form-group">
-          <label>City:</label>
-          <select class="form-controls">
-            <option>Istanbul</option>
-            <option>Burundi</option>
-            <option>Colombia</option>
-            <option>Fiji</option>
-          </select>
-        </div>
-
-        <div class="form-group">
-          <label>Bedrooms:</label>
-          <select class="form-controls">
-            <option>3</option>
-            <option>Burundi</option>
-            <option>Colombia</option>
-            <option>Fiji</option>
-          </select>
-        </div>
-
-        <div class="form-group">
-          <label>People:</label>
-          <select class="form-controls">
-            <option>2</option>
-            <option>Burundi</option>
-            <option>Colombia</option>
-            <option>Fiji</option>
-          </select>
-        </div>
-        <form method="get" action="details.html" class="pb-3">
-          <button class="btn btn-danger btn-search" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-
-    <div class="container mt-2 house-listing">
-      <h2>Houses</h2>
-      <div class="row">
-        <div class="col-12 col-md-6 col-lg-3 house-listing-text boder">
-          <div class="position-relative">
-            <a href="details.html"><img src="https://img.gtsstatic.net/reno/imagereader.aspx?imageurl=https%3A%2F%2Fsir.azureedge.net%2F1103i215%2Fawcpvnsyc57zm867wdf35zm294i215&option=N&h=472&permitphotoenlargement=false" class="house-imgs" alt=""></a>
-            <h6 class="text-on-img mb-0 text-center">Sothey's International Reality</h6>
+    <main class="main">
+      <div class="container-fluid">
+        <h1 class="text-center mt-4">Fliter By Country</h1>
+        <div class="d-flex justify-content-center">
+          <div class="form-group">
+            <label>Countries:</label>
+            <select class="form-controls">
+              <option>Chile</option>
+              <option>Burundi</option>
+              <option>Colombia</option>
+              <option>Fiji</option>
+            </select>
           </div>
-          <div class="p-2">
-            <a href="details.html"><h4 class="mt-1">Camino Las Haultatas Chile</h4></a>
-            <a href="details.html"><h6 class="font-weight-bold">$4,6000.00 Monthly</h6></a>
-            <a href="details.html"><h6 class="text-muted">4 Bedroom 6 Bathrooms 4,305 Sq Ft 0.25 Acre(s)</h6></a>
-            <a href="details.html"><h6 class="text-muted">Marketed By Chile Sothey's International Reality </h6></a>
-          </div>  
-        </div>
 
-        <div class="col-12 col-md-6  col-lg-3 house-listing-text boder">
-          <div class="position-relative">
-            <a href="details.html"><img src="https://img.gtsstatic.net/reno/imagereader.aspx?imageurl=https%3A%2F%2Fsir.azureedge.net%2F1103i215%2Fy1qdv35m99m045aphhsqhtbaa1i215&option=N&h=472&permitphotoenlargement=false" class="house-imgs" alt=""></a>
-            <h6 class="text-on-img  mb-0 text-center">Sothey's International Reality</h6>
+          <div class="form-group">
+            <label>City:</label>
+            <select class="form-controls">
+              <option>Istanbul</option>
+              <option>Burundi</option>
+              <option>Colombia</option>
+              <option>Fiji</option>
+            </select>
           </div>
-          <div class="p-2">
-            <a href="details.html"><h4 class="mt-1">Camino Las Haultatas Chile</h4></a>
-            <a href="details.html"><h6 class="font-weight-bold">$4,6000.00 Monthly</h6></a>
-            <a href="details.html"><h6 class="text-muted">4 Bedroom 6 Bathrooms 4,305 Sq Ft 0.25 Acre(s)</h6></a>
-            <a href="details.html"><h6 class="text-muted">Marketed By Chile Sothey's International Reality </h6></a>
-          </div>  
-        </div>
 
-        <div class="col-12 col-md-6  col-lg-3 house-listing-text boder">
-          <div class="position-relative">
-            <a href="details.html"><img src="https://img.gtsstatic.net/reno/imagereader.aspx?imageurl=https%3A%2F%2Fsir.azureedge.net%2F1103i215%2F2e1aamdcqp6ymgpk1be81v7tm7i215&option=N&h=472&permitphotoenlargement=false" class="house-imgs" alt=""></a>
-            <h6 class="text-on-img  mb-0 text-center">Sothey's International Reality</h6>
+          <div class="form-group">
+            <label>Bedrooms:</label>
+            <select class="form-controls">
+              <option>3</option>
+              <option>Burundi</option>
+              <option>Colombia</option>
+              <option>Fiji</option>
+            </select>
           </div>
-          <div class="p-2">
-            <a href="details.html"><h4 class="mt-1">Camino Las Haultatas Chile</h4></a>
-            <a href="details.html"><h6 class="font-weight-bold">$4,6000.00 Monthly</h6></a>
-            <a href="details.html"><h6 class="text-muted">4 Bedroom 6 Bathrooms 4,305 Sq Ft 0.25 Acre(s)</h6></a>
-            <a href="details.html"><h6 class="text-muted">Marketed By Chile Sothey's International Reality </h6></a>
-          </div>  
-        </div>
 
-        <div class="col-12 col-md-6  col-lg-3 house-listing-text boder">
-          <div class="position-relative">
-            <a href="details.html"><img src="https://img.gtsstatic.net/reno/imagereader.aspx?imageurl=https%3A%2F%2Fsir.azureedge.net%2F1103i215%2Fpyd7nj5v2tyzmattyhpmq2kb21i215&option=N&h=472&permitphotoenlargement=false" class="house-imgs" alt=""></a>
-            <h6 class="text-on-img mb-0 text-center">Sothey's International Reality</h6>
+          <div class="form-group">
+            <label>People:</label>
+            <select class="form-controls">
+              <option>2</option>
+              <option>Burundi</option>
+              <option>Colombia</option>
+              <option>Fiji</option>
+            </select>
           </div>
-          <div class="p-2">
-            <a href="details.html"><h4 class="mt-1">Camino Las Haultatas Chile</h4></a>
-            <a href="details.html"><h6 class="font-weight-bold">$4,6000.00 Monthly</h6></a>
-            <a href="details.html"><h6 class="text-muted">4 Bedroom 6 Bathrooms 4,305 Sq Ft 0.25 Acre(s)</h6></a>
-            <a href="details.html"><h6 class="text-muted">Marketed By Chile Sothey's International Reality </h6></a>
-          </div>  
-        </div>
-
-
-        <div class="col-12 col-md-6  col-lg-3 house-listing-text boder">
-          <div class="position-relative">
-            <a href="details.html"><img src="https://img.gtsstatic.net/reno/imagereader.aspx?imageurl=https%3A%2F%2Fsir.azureedge.net%2F1103i215%2Fcj69g4f4ewvcmyjspees449d80i215&option=N&h=472&permitphotoenlargement=false" class="house-imgs" alt=""></a>
-            <h6 class="text-on-img  mb-0 text-center">Sothey's International Reality</h6>
-          </div>
-          <div class="p-2">
-            <a href="details.html"><h4 class="mt-1">Camino Las Haultatas Chile</h4></a>
-            <a href="details.html"><h6 class="font-weight-bold">$4,6000.00 Monthly</h6></a>
-            <a href="details.html"><h6 class="text-muted">4 Bedroom 6 Bathrooms 4,305 Sq Ft 0.25 Acre(s)</h6></a>
-            <a href="details.html"><h6 class="text-muted">Marketed By Chile Sothey's International Reality </h6></a>
-          </div>  
-        </div>
-
-        <div class="col-12 col-md-6  col-lg-3 house-listing-text boder">
-          <div class="position-relative">
-            <a href="details.html"><img src="https://img.gtsstatic.net/reno/imagereader.aspx?imageurl=https%3A%2F%2Fsir.azureedge.net%2F1259i215%2Fq2e8101st32347afj2tdxtjy12i215&option=N&h=472&permitphotoenlargement=false" class="house-imgs" alt=""></a>
-            <h6 class="text-on-img  mb-0 text-center">Sothey's International Reality</h6>
-          </div>
-          <div class="p-2">
-            <a href="details.html"><h4 class="mt-1">Camino Las Haultatas Chile</h4></a>
-            <a href="details.html"><h6 class="font-weight-bold">$4,6000.00 Monthly</h6></a>
-            <a href="details.html"><h6 class="text-muted">4 Bedroom 6 Bathrooms 4,305 Sq Ft 0.25 Acre(s)</h6></a>
-            <a href="details.html"><h6 class="text-muted">Marketed By Chile Sothey's International Reality </h6></a>
-          </div>  
-        </div>
-
-        <div class="col-12 col-md-6  col-lg-3 house-listing-text boder">
-          <div class="position-relative">
-            <a href="details.html"><img src="https://img.gtsstatic.net/reno/imagereader.aspx?imageurl=https%3A%2F%2Fsir.azureedge.net%2F1253i215%2Fjjmphjykc31pm9ek1rtwtt11s4i215&option=N&h=472&permitphotoenlargement=false" class="house-imgs" alt=""></a>
-            <h6 class="text-on-img  mb-0 text-center">Sothey's International Reality</h6>
-          </div>
-          <div class="p-2">
-            <a href="details.html"><h4 class="mt-1">Camino Las Haultatas Chile</h4></a>
-            <a href="details.html"><h6 class="font-weight-bold">$4,6000.00 Monthly</h6></a>
-            <a href="details.html"><h6 class="text-muted">4 Bedroom 6 Bathrooms 4,305 Sq Ft 0.25 Acre(s)</h6></a>
-            <a href="details.html"><h6 class="text-muted">Marketed By Chile Sothey's International Reality </h6></a>
-          </div>  
-        </div>
-
-        <div class="col-12 col-md-6 col-lg-3 house-listing-text boder">
-          <div class="position-relative">
-            <a href="details.html"><img src="https://img.gtsstatic.net/reno/imagereader.aspx?imageurl=https%3A%2F%2Fsir.azureedge.net%2F1253i215%2Fh5fj83p5e8mvmha52katnc9wy1i215&option=N&h=472&permitphotoenlargement=false" class="house-imgs" alt=""></a>
-            <h6 class="text-on-img  mb-0 text-center">Sothey's International Reality</h6>
-          </div>
-          <div class="p-2">
-            <a href="details.html"><h4 class="mt-1">Camino Las Haultatas Chile</h4></a>
-            <a href="details.html"><h6 class="font-weight-bold">$4,6000.00 Monthly</h6></a>
-            <a href="details.html"><h6 class="text-muted">4 Bedroom 6 Bathrooms 4,305 Sq Ft 0.25 Acre(s)</h6></a>
-            <a href="details.html"><h6 class="text-muted">Marketed By Chile Sothey's International Reality </h6></a>
-          </div>  
+          <form method="get" action="details.html" class="pb-3">
+            <button class="btn-search" type="submit">Search</button>
+          </form>
         </div>
       </div>
-    </div>
 
+      <div class="container mt-2 house-listing">
+        <h2>Houses</h2>
+        <section class="row">
+          <div class="col-12 col-md-6 col-lg-3 house-listing-text boder">
+            <div class="position-relative">
+              <a href="details.html"><img src="https://img.gtsstatic.net/reno/imagereader.aspx?imageurl=https%3A%2F%2Fsir.azureedge.net%2F1103i215%2Fawcpvnsyc57zm867wdf35zm294i215&option=N&h=472&permitphotoenlargement=false" class="house-imgs" alt=""></a>
+              <h6 class="text-on-img mb-0 text-center">Sothey's International Reality</h6>
+            </div>
+            <div class="p-2">
+              <a href="details.html"><h4 class="mt-1">Camino Las Haultatas Chile</h4></a>
+              <a href="details.html"><h6 class="font-weight-bold">$4,6000.00 Monthly</h6></a>
+              <a href="details.html"><h6 class="text-muted">4 Bedroom 6 Bathrooms 4,305 Sq Ft 0.25 Acre(s)</h6></a>
+              <a href="details.html"><h6 class="text-muted">Marketed By Chile Sothey's International Reality </h6></a>
+            </div>  
+          </div>
+
+          <div class="col-12 col-md-6  col-lg-3 house-listing-text boder">
+            <div class="position-relative">
+              <a href="details.html"><img src="https://img.gtsstatic.net/reno/imagereader.aspx?imageurl=https%3A%2F%2Fsir.azureedge.net%2F1103i215%2Fy1qdv35m99m045aphhsqhtbaa1i215&option=N&h=472&permitphotoenlargement=false" class="house-imgs" alt=""></a>
+              <h6 class="text-on-img  mb-0 text-center">Sothey's International Reality</h6>
+            </div>
+            <div class="p-2">
+              <a href="details.html"><h4 class="mt-1">Camino Las Haultatas Chile</h4></a>
+              <a href="details.html"><h6 class="font-weight-bold">$4,6000.00 Monthly</h6></a>
+              <a href="details.html"><h6 class="text-muted">4 Bedroom 6 Bathrooms 4,305 Sq Ft 0.25 Acre(s)</h6></a>
+              <a href="details.html"><h6 class="text-muted">Marketed By Chile Sothey's International Reality </h6></a>
+            </div>  
+          </div>
+
+          <div class="col-12 col-md-6  col-lg-3 house-listing-text boder">
+            <div class="position-relative">
+              <a href="details.html"><img src="https://img.gtsstatic.net/reno/imagereader.aspx?imageurl=https%3A%2F%2Fsir.azureedge.net%2F1103i215%2F2e1aamdcqp6ymgpk1be81v7tm7i215&option=N&h=472&permitphotoenlargement=false" class="house-imgs" alt=""></a>
+              <h6 class="text-on-img  mb-0 text-center">Sothey's International Reality</h6>
+            </div>
+            <div class="p-2">
+              <a href="details.html"><h4 class="mt-1">Camino Las Haultatas Chile</h4></a>
+              <a href="details.html"><h6 class="font-weight-bold">$4,6000.00 Monthly</h6></a>
+              <a href="details.html"><h6 class="text-muted">4 Bedroom 6 Bathrooms 4,305 Sq Ft 0.25 Acre(s)</h6></a>
+              <a href="details.html"><h6 class="text-muted">Marketed By Chile Sothey's International Reality </h6></a>
+            </div>  
+          </div>
+
+          <div class="col-12 col-md-6  col-lg-3 house-listing-text boder">
+            <div class="position-relative">
+              <a href="details.html"><img src="https://img.gtsstatic.net/reno/imagereader.aspx?imageurl=https%3A%2F%2Fsir.azureedge.net%2F1103i215%2Fpyd7nj5v2tyzmattyhpmq2kb21i215&option=N&h=472&permitphotoenlargement=false" class="house-imgs" alt=""></a>
+              <h6 class="text-on-img mb-0 text-center">Sothey's International Reality</h6>
+            </div>
+            <div class="p-2">
+              <a href="details.html"><h4 class="mt-1">Camino Las Haultatas Chile</h4></a>
+              <a href="details.html"><h6 class="font-weight-bold">$4,6000.00 Monthly</h6></a>
+              <a href="details.html"><h6 class="text-muted">4 Bedroom 6 Bathrooms 4,305 Sq Ft 0.25 Acre(s)</h6></a>
+              <a href="details.html"><h6 class="text-muted">Marketed By Chile Sothey's International Reality </h6></a>
+            </div>  
+          </div>
+
+
+          <div class="col-12 col-md-6  col-lg-3 house-listing-text boder">
+            <div class="position-relative">
+              <a href="details.html"><img src="https://img.gtsstatic.net/reno/imagereader.aspx?imageurl=https%3A%2F%2Fsir.azureedge.net%2F1103i215%2Fcj69g4f4ewvcmyjspees449d80i215&option=N&h=472&permitphotoenlargement=false" class="house-imgs" alt=""></a>
+              <h6 class="text-on-img  mb-0 text-center">Sothey's International Reality</h6>
+            </div>
+            <div class="p-2">
+              <a href="details.html"><h4 class="mt-1">Camino Las Haultatas Chile</h4></a>
+              <a href="details.html"><h6 class="font-weight-bold">$4,6000.00 Monthly</h6></a>
+              <a href="details.html"><h6 class="text-muted">4 Bedroom 6 Bathrooms 4,305 Sq Ft 0.25 Acre(s)</h6></a>
+              <a href="details.html"><h6 class="text-muted">Marketed By Chile Sothey's International Reality </h6></a>
+            </div>  
+          </div>
+
+          <div class="col-12 col-md-6  col-lg-3 house-listing-text boder">
+            <div class="position-relative">
+              <a href="details.html"><img src="https://img.gtsstatic.net/reno/imagereader.aspx?imageurl=https%3A%2F%2Fsir.azureedge.net%2F1259i215%2Fq2e8101st32347afj2tdxtjy12i215&option=N&h=472&permitphotoenlargement=false" class="house-imgs" alt=""></a>
+              <h6 class="text-on-img  mb-0 text-center">Sothey's International Reality</h6>
+            </div>
+            <div class="p-2">
+              <a href="details.html"><h4 class="mt-1">Camino Las Haultatas Chile</h4></a>
+              <a href="details.html"><h6 class="font-weight-bold">$4,6000.00 Monthly</h6></a>
+              <a href="details.html"><h6 class="text-muted">4 Bedroom 6 Bathrooms 4,305 Sq Ft 0.25 Acre(s)</h6></a>
+              <a href="details.html"><h6 class="text-muted">Marketed By Chile Sothey's International Reality </h6></a>
+            </div>  
+          </div>
+
+          <div class="col-12 col-md-6  col-lg-3 house-listing-text boder">
+            <div class="position-relative">
+              <a href="details.html"><img src="https://img.gtsstatic.net/reno/imagereader.aspx?imageurl=https%3A%2F%2Fsir.azureedge.net%2F1253i215%2Fjjmphjykc31pm9ek1rtwtt11s4i215&option=N&h=472&permitphotoenlargement=false" class="house-imgs" alt=""></a>
+              <h6 class="text-on-img  mb-0 text-center">Sothey's International Reality</h6>
+            </div>
+            <div class="p-2">
+              <a href="details.html"><h4 class="mt-1">Camino Las Haultatas Chile</h4></a>
+              <a href="details.html"><h6 class="font-weight-bold">$4,6000.00 Monthly</h6></a>
+              <a href="details.html"><h6 class="text-muted">4 Bedroom 6 Bathrooms 4,305 Sq Ft 0.25 Acre(s)</h6></a>
+              <a href="details.html"><h6 class="text-muted">Marketed By Chile Sothey's International Reality </h6></a>
+            </div>  
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3 house-listing-text boder">
+            <div class="position-relative">
+              <a href="details.html"><img src="https://img.gtsstatic.net/reno/imagereader.aspx?imageurl=https%3A%2F%2Fsir.azureedge.net%2F1253i215%2Fh5fj83p5e8mvmha52katnc9wy1i215&option=N&h=472&permitphotoenlargement=false" class="house-imgs" alt=""></a>
+              <h6 class="text-on-img  mb-0 text-center">Sothey's International Reality</h6>
+            </div>
+            <div class="p-2">
+              <a href="details.html"><h4 class="mt-1">Camino Las Haultatas Chile</h4></a>
+              <a href="details.html"><h6 class="font-weight-bold">$4,6000.00 Monthly</h6></a>
+              <a href="details.html"><h6 class="text-muted">4 Bedroom 6 Bathrooms 4,305 Sq Ft 0.25 Acre(s)</h6></a>
+              <a href="details.html"><h6 class="text-muted">Marketed By Chile Sothey's International Reality </h6></a>
+            </div>  
+          </div>
+        </section>
+      </div>
+    </main>
 
     <footer class="footer">
       <div class="container mt-4 p-4">
         <div class="footer-socials footer-socials1">
           <div>
-            <ul class="d-flex md-6 nav-ul justify-content-center">
+            <ul class="d-flex md-6 footer-ul justify-content-center">
               <li><a href="index.html">Home</a></li>
               <li><a href="#">About</a></li>
               <li><a href="#">Blog</a></li>
@@ -201,7 +209,7 @@
           </div>
           <div class="footer-icon"><i class="fas fa-street-view fa-3x white-color"></i></div>
           <div class="socials d-flex justify-content-center">
-            <ul class="d-flex footer-ul nav-ul">
+            <ul class="d-flex footer-ul">
               <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" class="bi bi-instagram" viewBox="0 0 16 16">
                 <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
               </svg></a></li>
@@ -228,7 +236,7 @@
             <h4 class="font-weight-bold">Subscribe</h4>
             <div class="d-flex justify-content-center">
               <input type="text" placeholder="Email">
-              <button class="btn btn-danger" type="button">Send</button>
+              <button class="button" type="button">Send</button>
             </div>
             
           </div>
@@ -248,6 +256,6 @@
 
       </div>
       
-    </footer>   
+    </footer> 
   </body>
 </html>
