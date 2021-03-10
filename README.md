@@ -2,6 +2,13 @@
 
 <img src="images/Screen Shot 2021-03-10 at 1.02.13 AM.png">
 
+## Live Demo
+
+[Live Demo Link](https://amalcxc.github.io/capstone-project/)
+
+## Getting Started
+
+**To get a local copy up and running follow these simple steps.**
 
 ### Prerequisites
 
