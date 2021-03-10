@@ -1,5 +1,7 @@
 ### website for houses to rent 
 
+## easy way to find and rent houses online. simple design and very easy to understand.
+
 <img src="images/Screen Shot 2021-03-10 at 1.02.13 AM.png">
 
 ## Live Demo
@@ -60,12 +62,6 @@ The project will be deployed to https://<yourgithubusername>.github.io/<reposito
 ​
 
 Contributions, issues, and feature requests are welcome!
-
-​
-
-Feel free to check the [issues page]( https://github.com/vitorelourenco/NewsweekClone/issues ).
-
-​
 
 ## Show your support
 
