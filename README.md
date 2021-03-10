@@ -43,10 +43,6 @@
 ->Save
 
 ​
-
-The project will be deployed to https://<yourgithubusername>.github.io/<repositorysname>/
-
-​
 👤 **Author**
 - GitHub: [Amal Hersi](https://github.com/Amalcxc)
 
