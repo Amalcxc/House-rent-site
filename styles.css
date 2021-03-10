@@ -84,7 +84,7 @@
 .input-jumbitron {
   width: 300px;
   height: 40px;
-  margin-bottom: 5px;  
+  margin-bottom: 5px; 
 }
 
 .btn-jumbitron {
@@ -96,7 +96,7 @@
 }
 
 .button-input {
-  background-color:rgba(230, 230, 230, 0.836);
+  background-color: rgba(230, 230, 230, 0.836);
   width: 75%;
   margin: 0 auto;
   padding: 20px;
@@ -126,7 +126,7 @@
 
 .Subscribe {
   display: none;
-  }
+}
 
 @media only screen and (min-width: 700px) {
   .text-main {
@@ -135,7 +135,7 @@
     margin-top: 35px;
     line-height: 25px;
     width: 635px;
-    }
+  }
 
   .main {
     margin-top: 20px;
@@ -159,8 +159,8 @@
   
   .main {
     text-align: center;
-  } 
-}
+   }
+  }
 
 @media only screen and (min-width: 1200px) {
   .img-main {
@@ -219,7 +219,6 @@
   .footer-icon {
     display: block;
   }
-  
 }
 
 .img-main img {
@@ -274,7 +273,7 @@
 
 .search-bar input {
   height: 40px;
-  width: 400px; 
+  width: 400px;
 }
 
 .form-controls {
@@ -283,7 +282,7 @@
   font-size: 1rem;
   font-weight: 400;
   border: 1px solid #ced4da;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   padding-left: 10px;
 }
 
