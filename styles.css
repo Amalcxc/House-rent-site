@@ -141,6 +141,10 @@
   padding-left: 20px;
 }
 
+.main1 {
+  padding: 0;
+}
+
 .description-text {
   margin-left: 10px;
   width: 73%;
@@ -249,6 +253,11 @@
   .nav-icons li {
     display: none;
   }
+
+  .fliter-group {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .img-main img {
@@ -279,6 +288,10 @@
   background: rgba(158, 151, 150, 0.993);
   color: #fff;
   padding: 0;
+}
+
+.fliter {
+  background-color: rgba(184, 178, 178, 0.74);
 }
 
 .font-h2 {
@@ -341,6 +354,16 @@
   margin-top: 20px;
   background-color: rgb(212, 87, 74);
   border-color: rgb(212, 87, 74);
+  color: white;
+  border-radius: 0.25rem;
+}
+
+.btn-search1 {
+  height: 40px;
+  width: 100px;
+  margin-top: 20px;
+  background-color: rgb(81, 156, 216);
+  border-color: rgb(81, 156, 216);
   color: white;
   border-radius: 0.25rem;
 }
