@@ -1,0 +1,439 @@
+.red-bg {
+  background-color: rgb(212, 87, 74);
+}
+
+.blue-bg {
+  background-color: rgb(81, 156, 216);
+}
+
+.gray-bg {
+  background-color: rgb(230, 230, 230);
+}
+
+.yellow-bg {
+  background-color: rgb(230, 172, 91);
+}
+
+#nav-bg {
+  background-color: rgb(212, 87, 74);
+}
+
+.nav-ul li {
+  padding-left: 34px;
+  margin-top: 5px;
+  font-size: 20px;
+  list-style-type: none;
+  display: none;
+}
+
+.nav-icons {
+  display: block;
+}
+
+.nav-icons a {
+  text-decoration: none;
+  color: white;
+  margin: 25px;
+}
+
+.nav-icons li {
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.red-color {
+  color: rgb(212, 87, 74);
+}
+
+.white-color {
+  color: white;
+}
+
+.jumbotron1 {
+  padding-top: 110px;
+}
+
+.house-listing-text a {
+  text-decoration: none;
+  color: rgba(8, 8, 8, 0.863);
+}
+
+.nav-ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.form {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 10px #00000036;
+  margin-top: 100px;
+  padding-bottom: 20px;
+}
+
+.form input {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ebebeb;
+  border-radius: 3px;
+  margin: 0 0 10px 0;
+}
+
+.form button {
+  width: 100%;
+  background: rgb(212, 87, 74);
+  padding: 15px;
+  color: white;
+  font-size: 14px;
+}
+
+#apply-btn {
+  width: 20%;
+  float: right;
+  height: 40px;
+  background: rgb(81, 156, 216);
+  border-color: rgb(81, 156, 216);
+  padding: 10px;
+  color: white;
+  font-size: 10px;
+}
+
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  margin-right: 20px;
+}
+
+iframe {
+  margin-left: 20px;
+}
+
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 80%;
+  width: 100%;
+  position: absolute;
+}
+
+.button {
+  width: 200px;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+  border-radius: 0.25rem;
+  height: 40px;
+  color: rgb(3, 3, 3);
+  line-height: 0;
+}
+
+.jumbotron {
+  background-image: url("https://images.adsttc.com/media/images/5ecd/d4ac/b357/65c6/7300/009d/large_jpg/02C.jpg?1590547607");
+  background-repeat: repeat-y;
+  background-position: center;
+  background-size: cover;
+  height: 490px;
+}
+
+.input-jumbitron {
+  width: 300px;
+  height: 40px;
+  margin-bottom: 5px;
+}
+
+.btn-jumbitron {
+  width: 300px;
+  height: 40px;
+  background-color: rgb(212, 87, 74);
+  border-color: rgb(212, 87, 74);
+  border-radius: 0.25rem;
+}
+
+.button-input {
+  background-color: rgba(230, 230, 230, 0.836);
+  width: 75%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.img-main {
+  height: 380px;
+}
+
+.text-main {
+  width: 835px;
+}
+
+.main {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.main1 {
+  padding: 0;
+}
+
+.description-text {
+  margin-left: 10px;
+  width: 73%;
+}
+
+.footer-icon {
+  display: none;
+}
+
+.Subscribe {
+  display: none;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+@media only screen and (min-width: 700px) {
+  .text-main {
+    padding-left: 10px;
+    padding-right: 30px;
+    margin-top: 35px;
+    line-height: 25px;
+    width: 635px;
+  }
+
+  .main {
+    margin-top: 20px;
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .img-main {
+    display: none;
+  }
+
+  .text-main {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .img-dis {
+    width: 200px;
+  }
+
+  .main {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .img-main {
+    display: block;
+    padding-right: 40px;
+    justify-content: end;
+  }
+
+  .text-main {
+    padding-left: 200px;
+    padding-right: 40px;
+    margin-top: 15px;
+    line-height: 32px;
+  }
+
+  .footer-socials {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  .footer-socials1 {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding-top: 5px;
+  }
+
+  .input-button {
+    display: flex;
+    justify-content: center;
+  }
+
+  .input-jumbitron {
+    width: 600px;
+  }
+
+  .btn-jumbitron {
+    width: 190px;
+  }
+
+  .description-text {
+    padding-left: 20px;
+    padding-top: 30px;
+    line-height: 200px;
+    width: 100%;
+  }
+
+  .Subscribe {
+    display: block;
+  }
+
+  .footer-icon {
+    display: block;
+  }
+
+  .nav-ul li {
+    display: block;
+  }
+
+  .nav-icons li {
+    display: none;
+  }
+
+  .fliter-group {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.img-main img {
+  height: 390px;
+  margin-top: 15px;
+  padding-left: 40px;
+}
+
+.description img,
+.description1 img,
+.description2 img {
+  border-radius: 50%;
+}
+
+.description {
+  background: rgb(212, 87, 74);
+  color: #fff;
+  padding: 0;
+}
+
+.description1 {
+  background: rgb(81, 156, 216);
+  color: #fff;
+  padding: 0;
+}
+
+.description2 {
+  background: rgba(158, 151, 150, 0.993);
+  color: #fff;
+  padding: 0;
+}
+
+.fliter {
+  background-color: rgba(184, 178, 178, 0.74);
+}
+
+.font-h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.house-imgs {
+  height: 100%;
+  width: 100%;
+}
+
+.house-imgs1 {
+  height: 100%;
+  width: 100%;
+}
+
+.house-imgs2 {
+  margin-top: 10px;
+  width: 45%;
+}
+
+.house-listing {
+  padding: 0;
+  margin: 0;
+}
+
+.house-listing-text {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.text-on-img {
+  bottom: 0;
+  background-color: rgb(212, 87, 74);
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+
+.search-bar input {
+  height: 40px;
+  width: 400px;
+}
+
+.button1 {
+  margin-bottom: 12px;
+}
+
+.form-controls {
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  padding-left: 10px;
+}
+
+.btn-search {
+  height: 40px;
+  width: 100px;
+  margin-top: 20px;
+  background-color: rgb(212, 87, 74);
+  border-color: rgb(212, 87, 74);
+  color: white;
+  border-radius: 0.25rem;
+}
+
+.btn-search1 {
+  height: 40px;
+  width: 100px;
+  margin-top: 20px;
+  background-color: rgb(81, 156, 216);
+  border-color: rgb(81, 156, 216);
+  color: white;
+  border-radius: 0.25rem;
+}
+
+.btn-footer {
+  width: 180px;
+}
+
+.footer-ul li {
+  padding-left: 34px;
+  margin-top: 5px;
+  font-size: 20px;
+  list-style-type: none;
+}
+
+.footer-ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+}
+
+.footer-h6 h6 {
+  color: rgb(158, 184, 172);
+  text-decoration: none;
+  padding-left: 5px;
+}
