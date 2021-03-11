@@ -69,8 +69,10 @@
 }
 
 .form {
-  border: 1px solid red;
-  margin-top: 20px;
+  background-color:rgb(255, 255, 255);
+  box-shadow: 5px 10px #00000036;
+  margin-top: 100px;
+  padding-bottom: 20px;
 }
 
 .form input {
@@ -87,6 +89,18 @@
   padding: 15px;
   color: white;
   font-size: 14px;
+}
+
+#apply-btn {
+  width: 20%;
+  float: right;
+  height: 40px;
+  background: rgb(81, 156, 216);
+  border-color: rgb(81, 156, 216);
+  padding: 10px;
+  color: white;
+  font-size: 10px;
+
 }
 
 .button {
@@ -156,6 +170,10 @@
 
 .Subscribe {
   display: none;
+}
+
+.border {
+  border: 1px solid black;
 }
 
 @media only screen and (min-width: 700px) {
