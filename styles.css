@@ -69,7 +69,7 @@
 }
 
 .form {
-  background-color:rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
   box-shadow: 5px 10px #00000036;
   margin-top: 100px;
   padding-bottom: 20px;
@@ -107,6 +107,7 @@
   padding-bottom: 56.25%;
   position: relative;
   height: 0;
+  margin-right: 20px;
 }
 
 .map-container iframe {
@@ -115,6 +116,10 @@
   height: 80%;
   width: 100%;
   position: absolute;
+}
+
+iframe {
+  margin-left: 20px; 
 }
 
 .button {
