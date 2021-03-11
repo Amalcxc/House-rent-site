@@ -251,35 +251,33 @@
   }
 }
 
-.main {
-  padding: 0;
-}
-
 .img-main img {
   height: 390px;
   margin-top: 15px;
   padding-left: 40px;
 }
 
-.description img , .description1 img , .description2 img{
+.description img, 
+.description1 img, 
+.description2 img{
   border-radius: 50%;
 }
 
 .description {
   background: rgb(212, 87, 74);
-  color: #ffffff;
+  color: #fff;
   padding: 0;
 }
 
 .description1 {
   background: rgb(81, 156, 216);
-  color: #ffffff;
+  color: #fff;
   padding: 0;
 }
 
 .description2 {
   background: rgba(158, 151, 150, 0.993);
-  color: #ffffff;
+  color: #fff;
   padding: 0;
 }
 
