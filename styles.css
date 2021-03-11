@@ -91,11 +91,11 @@
 
 .button {
   width: 200px;
-  background-color: rgb(212, 87, 74);
-  border-color: rgb(212, 87, 74);
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
   border-radius: 0.25rem;
   height: 40px;
-  color: white;
+  color: rgb(3, 3, 3);
   line-height: 0;
 }
 
@@ -227,10 +227,6 @@
     width: 190px;
   }
 
-  .description {
-    width: 75%;
-  }
-
   .description-text {
     padding-left: 20px;
     padding-top: 30px;
@@ -255,15 +251,36 @@
   }
 }
 
+.main {
+  padding: 0;
+}
+
 .img-main img {
   height: 390px;
   margin-top: 15px;
   padding-left: 40px;
 }
 
+.description img , .description1 img , .description2 img{
+  border-radius: 50%;
+}
+
 .description {
-  background: #f7f7f7;
-  margin: 40px auto;
+  background: rgb(212, 87, 74);
+  color: #ffffff;
+  padding: 0;
+}
+
+.description1 {
+  background: rgb(81, 156, 216);
+  color: #ffffff;
+  padding: 0;
+}
+
+.description2 {
+  background: rgba(158, 151, 150, 0.993);
+  color: #ffffff;
+  padding: 0;
 }
 
 .font-h2 {
